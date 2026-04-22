@@ -72,4 +72,7 @@
 ## 🙌 Credits
 
 - Based on and enhanced from:  
-  https://github.com/Digital-Blinc-DBERT/nifty50_predictor  
+  https://github.com/Digital-Blinc-DBERT/nifty50_predictor
+
+
+
