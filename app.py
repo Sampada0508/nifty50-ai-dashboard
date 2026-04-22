@@ -483,13 +483,14 @@ def create_prediction_chart(predictions):
             ))
 
         fig.update_layout(
-            title="7-Day Prediction Scenarios",
-            xaxis_title="Scenarios",
-            yaxis_title="Price (₹)",
-            height=500,
-            barmode='group',
-            showlegend=False
-        )
+    template="plotly_dark",
+    title="📊 NIFTY 50 Trend with Moving Averages",
+    xaxis_title="Date",
+    yaxis_title="Price (₹)",
+    height=500,
+    xaxis_rangeslider_visible=False,
+    margin=dict(l=10, r=10, t=40, b=10)
+)
 
         st.plotly_chart(fig, use_container_width=True)
 
